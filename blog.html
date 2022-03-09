@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
+    <title>University Web Site Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/
+fontawesome-free@5.15.4/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/efd65e023a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      <i class="fa fa-bars" onclick="showMenu"></i>
+      </nav>
+      <h2>Our Certificate & Online Programs For 2021</h2>
+    </section>
+
+
+    <!---BLOG PAGE------->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images3/certificate.jpg">
+          <h2>Our Certificate & Online Programs For 2021</h2>
+
+          <p>Graphic Era Hill University is a private university located in
+            Dehradun, Haldwani and Bhimtal, Uttarakhand, India. It was established on
+            28 April 2011 by an act of the Uttarakhand State under the aegis of
+            Graphic Era Educational Society, which was set up in 1996 as a non-profit
+            organization.</p><br>
+
+            <p>Graphic Era Hill University is a private university located in
+            Dehradun, Haldwani and Bhimtal, Uttarakhand, India. It was established on
+            28 April 2011 by an act of the Uttarakhand State under the aegis of
+            Graphic Era Educational Society, which was set up in 1996 as a non-profit
+            organization.</p><br>
+
+
+            <p>Graphic Era Hill University is a private university located in
+            Dehradun, Haldwani and Bhimtal, Uttarakhand, India. It was established on
+            28 April 2011 by an act of the Uttarakhand State under the aegis of
+            Graphic Era Educational Society, which was set up in 1996 as a non-profit
+            organization.</p><br>
+
+            <p>Graphic Era Hill University is a private university located in
+            Dehradun, Haldwani and Bhimtal, Uttarakhand, India. It was established on
+            28 April 2011 by an act of the Uttarakhand State under the aegis of
+            Graphic Era Educational Society, which was set up in 1996 as a non-profit
+            organization.</p><br>
+
+            <div class="comment-box">
+              <h3>Leave a Comment</h3>
+              <form class="comment-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your e-mail">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+              </form>
+            </div>
+
+        </div>
+        <div class="blog-right">
+          <h3>Post Caregories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+            <div>
+              <span>Data Science</span>
+              <span>28</span>
+            </div>
+            <div>
+              <span>Machine Learning</span>
+              <span>15</span>
+            </div>
+            <div>
+              <span>Python</span>
+              <span>34</span>
+            </div>
+            <div>
+              <span>Javascript</span>
+              <span>42</span>
+            </div>
+            <div>
+              <span>Java</span>
+              <span>22</span>
+            </div>
+            <div>
+              <span>Cloud Computing</span>
+              <span>30</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!---FOOTER----->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+      <div class="icons">
+          <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+              <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made By <i class="fa fa-heart-o" aria-hidden="true"></i> Nilesh Yadav</p>
+    </section>
+    <!---JAVASCRIPT FOR TOGGLE MENU----------->
+     <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+          navlinks.style.right="0";
+        }
+        function hideMenu() {
+          navlinks.style.right="-200px";
+        }
+    </script>
+
+  </body>
+</html>
